@@ -1,13 +1,23 @@
 <html>
     <head>
+        <script type="text/javascript">
+        function dispSimpleAlert(){
+            alert("シンプルアラートの表示");
+        }
+        function dispWindowAlert(){
+        	window.alert('ウィンドウアラートの表示');
+        }
+        </script>
     </head>
     <body>
         Github Pages Sample
         
         <p><span>＜NG＞</span></p>
-        <p><a href=\"https://www.bing.com/\"><strong><em>SampleText</em></strong></a><br></p>
+        <p><a href="https://www.bing.com"><strong><em>SampleText</em></strong></a><br></p>
         
         <p><span>＜OK＞</span></p>
-        <p><strong><em><a href=\"https://www.bing.com/\">SampleText</a></em></strong><br></p>
+        <p><strong><em><a href="https://www.bing.com">SampleText</a></em></strong><br></p>
+        <p><input type="button" value="dispSimpleAlert の実行" onClick="dispSimpleAlert()"></p>
+        <p><input type="button" value="dispWindowAlert の実行" onClick="dispWindowAlert()"></p>
     </body>
 </html>
