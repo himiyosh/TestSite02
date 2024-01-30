@@ -5,7 +5,10 @@
             alert("シンプルアラートの表示");
         }
         function dispWindowAlert(){
-        	window.alert('ウィンドウアラートの表示');
+            window.alert('ウィンドウアラートの表示');
+        }
+        function dispWindowConfirm(){
+            window.confirm("ウィンドウ確認ダイアログの表示");
         }
         </script>
     </head>
@@ -19,5 +22,6 @@
         <p><strong><em><a href="https://www.bing.com">SampleText</a></em></strong><br></p>
         <p><input type="button" value="dispSimpleAlert の実行" onClick="dispSimpleAlert()"></p>
         <p><input type="button" value="dispWindowAlert の実行" onClick="dispWindowAlert()"></p>
+        <p><input type="button" value="dispWindowAlert の実行" onClick="dispWindowConfirm()"></p>
     </body>
 </html>
